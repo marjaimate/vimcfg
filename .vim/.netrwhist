@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/mmarjai/Work/Admin-Tool'
-let g:netrw_dirhist_2='/Users/mmarjai/Work/Admin-Tool/config'
-let g:netrw_dirhist_3='/Users/mmarjai/Work/Admin-Tool/app/views/fee_credits'
-let g:netrw_dirhist_4='/Users/mmarjai/Work/Admin-Tool'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/mmarjai/Work/sumup_models'
+let g:netrw_dirhist_2='/Users/mmarjai/Work/sumup_models/.git'
+let g:netrw_dirhist_3='/Users/mmarjai/Work/sumup_models'
+let g:netrw_dirhist_4='/Users/mmarjai/Work/sumup_models/bin'
+let g:netrw_dirhist_5='/Users/mmarjai/Work/sumup_models'
+let g:netrw_dirhist_6='/Users/mmarjai/Work/sumup_models/bin'

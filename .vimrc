@@ -34,3 +34,6 @@ set mouse=a
 set foldmethod=indent
 
 call pathogen#infect()
+
+autocmd vimenter * if !argc() | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
