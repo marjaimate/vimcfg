@@ -31,7 +31,7 @@ set showmatch
 
 set mousehide  " Hide mouse after chars typed
 set mouse=a  
-set foldmethod=indent
+" set foldmethod=indent
 " load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
 
