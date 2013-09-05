@@ -4,6 +4,9 @@ syntax on
 " smart saving
 set hidden
 
+" encoding
+set encoding=utf-8
+
 " command completion
 set wildmenu
 
@@ -35,6 +38,9 @@ set showmatch
 
 set mousehide  " Hide mouse after chars typed
 set mouse=a  
+" backspace
+set backspace=indent,eol,start
+
 " set foldmethod=indent
 " load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
@@ -45,3 +51,4 @@ autocmd vimenter * if !argc() | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 autocmd Filetype erlang setlocal ts=4 sts=4 sw=4
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+let g:NERDTreeDirArrows=0
