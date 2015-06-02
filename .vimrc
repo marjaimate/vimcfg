@@ -30,14 +30,14 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
-" Split on the right 
+" Split on the right
 set splitright
 
 " Sugar for zee codez
 set showmatch
 
 set mousehide  " Hide mouse after chars typed
-set mouse=a  
+set mouse=a
 " backspace
 set backspace=indent,eol,start
 
@@ -57,5 +57,8 @@ autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 autocmd Filetype python setlocal ts=8 sts=4 sw=4
 autocmd BufWritePre * :%s/\s\+$//e
 let g:NERDTreeDirArrows=0
-let NERDTreeShowHidden=1 
+let NERDTreeShowHidden=1
 colors twilight
+
+let g:gitgutter_sign_column_always = 1
+let g:gitgutter_max_signs = 500
