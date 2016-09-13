@@ -62,3 +62,7 @@ colors twilight
 
 let g:gitgutter_sign_column_always = 1
 let g:gitgutter_max_signs = 500
+
+" Set backup dirs
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swp//
