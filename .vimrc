@@ -59,7 +59,6 @@ autocmd Filetype python setlocal ts=8 sts=4 sw=4
 autocmd BufWritePre * :%s/\s\+$//e
 let g:NERDTreeDirArrows=0
 let NERDTreeShowHidden=1
-colors twilight
 
 let g:gitgutter_sign_column_always = 1
 let g:gitgutter_max_signs = 500
@@ -67,3 +66,6 @@ let g:gitgutter_max_signs = 500
 " Set backup dirs
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
+
+set background=dark
+colorscheme solarized
