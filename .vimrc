@@ -57,6 +57,7 @@ autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd Filetype python setlocal ts=8 sts=4 sw=4
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 let g:NERDTreeDirArrows=0
 let NERDTreeShowHidden=1
 
@@ -67,5 +68,6 @@ let g:gitgutter_max_signs = 500
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
 
-set background=dark
+set background=light
 colorscheme solarized
+
